@@ -1,0 +1,7 @@
+git clone https://github.com/gj2468/message-for-u-.git
+cd message-for-u-
+mkdir images
+mv *.jpg *.png images/   # Move all JPG and PNG files to the images folder
+git add .
+git commit -m "Moved images to images folder"
+git push
