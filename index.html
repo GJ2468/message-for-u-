@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for You</title>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            animation: fadeIn 2s ease-in;
+        }
+        .message {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            display: inline-block;
+            max-width: 600px;
+            margin: auto;
+            animation: fadeIn 2s ease-in;
+        }
+        .message h1 {
+            color: #ffcccb;
+            font-size: 2.5em;
+        }
+        .message p {
+            color: #ddd;
+        }
+        .chats {
+            margin-top: 20px;
+        }
+        .chats img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            margin-bottom: 10px;
+            animation: zoomIn 1s ease-in;
+        }
+        .profile-photo {
+            margin-bottom: 20px;
+            animation: zoomIn 1s ease-in;
+        }
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <div class="profile-photo">
+            <img src="herphoto.jpg" alt="Her Photo">
+        </div>
+        <h1>Missing you...</h1>
+        <p>Please come back. I need to talk to you.</p>
+        <p>You mean so much to me, and every moment without you feels incomplete.There was a time when I loved talking to you. You probably knew I liked you, and then you suddenly disappeared without a word.It's been really hard for me since then. I've spent so much time scrolling through our old chats, remembering you, and missing you a lot. I really hope we can reconnect because those memories mean a lot to me💗🥹.</p>
+        <div class="chats">
+            <h2>Our Chats</h2>
+            <img src="chat1.png" alt="Chat Image 1">
+            <img src="chat2.png" alt="Chat Image 2">
+            <img src="chat3.png" alt="Chat Image 3">
+            <img src="chat4.png" alt="Chat Image 4">
+            <img src="chat5.png" alt="Chat Image 5">
+            <img src="chat6.png" alt="Chat Image 6">
+            <img src="chat7.png" alt="Chat Image 7">
+            <img src="chat8.png" alt="Chat Image 8">
+            <img src="chat9.png" alt="Chat Image 9">
+            <img src="chat10.png" alt="Chat Image 10">
+        </div>
+    </div>
+    <p style="color: red;">If you are seeing this message, there might be an issue with the file paths or file names.</p>
+</body>
+</html>
